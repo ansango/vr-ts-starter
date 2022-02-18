@@ -1,7 +1,6 @@
 {
-  "name": "itx-maps",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vr-ts-starter",
+  "version": "0.0.1",
   "scripts": {
     "start": "ntl -s 12 -e start prepare",
     "cli": "plop --plopfile cli/index.js",

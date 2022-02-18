@@ -2,7 +2,7 @@ const jestConfig = {
   testEnvironment: "jsdom",
   testPathIgnorePatterns: ["/node_modules/", "/dist/","./src/main.tsx"],
   collectCoverage: true,
-  collectCoverageFrom: ["src/**/**/*.tsx"],
+  collectCoverageFrom: ["src/app/**/*.tsx"],
   setupFilesAfterEnv: ["<rootDir>/.jest/setup.ts"],
   modulePaths: ["<rootDir>/src/"],
   transform: {
